@@ -1,0 +1,48 @@
+.bg {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-heading-container {
+  display: flex;
+  align-items: center;
+}
+.success-icon {
+  color: #2dca73;
+  margin-right: 15px;
+}
+.success-heading {
+  color: #2dca73;
+  font-size: 25px;
+}
+.success-description {
+  color: #64748b;
+}
+.close-icon {
+  cursor: pointer;
+}
+.error-icon {
+  color: #ff0b37;
+  margin-right: 15px;
+}
+.error-heading {
+  color: #ff0b37;
+  font-size: 25px;
+}
+.warning-icon {
+  color: #ffb800;
+  margin-right: 15px;
+}
+.warning-heading {
+  color: #ffb800;
+  font-size: 25px;
+}
+.info-icon {
+  color: #0f81e0;
+  margin-right: 15px;
+}
+.info-heading {
+  color: #0f81e0;
+  font-size: 25px;
+}
